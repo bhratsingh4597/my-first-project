@@ -1,0 +1,37 @@
+#container {
+    background: radial-gradient(#eecfbd, #c8e6a2);
+}
+#title {
+    color: #b82828;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    border: 1px solid #000;
+}
+.nav-items>ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+.nav-items>ul li {
+    padding: 15px;
+}
+.logo {
+    width: 120px;
+}
+.card {
+    width: 300px;
+    border: 1px solid #000;
+}
+.card img {
+    width: 100%;
+}
+.restrautlist {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    flex: 0 0 auto;
+}
