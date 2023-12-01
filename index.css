@@ -4,11 +4,13 @@
 #title {
     color: #b82828;
 }
+body {
+    background-color: #f4f6f9;
+}
 .header {
     display: flex;
     justify-content: space-between;
     margin: 10px;
-    border: 1px solid #000;
 }
 .nav-items>ul {
     display: flex;
@@ -34,8 +36,11 @@
     flex-wrap: wrap;
     gap: 20px;
     justify-content: space-between;
-    flex: 0 0 auto;
+    flex: 0 0 25%;
 }
 .search-container {
     margin: 20px 10px;
+}
+.card h2, h4 {
+    line-break: normal;
 }
