@@ -22,11 +22,12 @@
     width: 120px;
 }
 .card {
-    width: 300px;
+    width: 350px;
     border: 1px solid #000;
 }
 .card img {
-    width: 100%;
+    width: 350px;
+    height: 350px;
 }
 .restrautlist {
     display: flex;
