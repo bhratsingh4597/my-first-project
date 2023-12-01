@@ -3,18 +3,21 @@ import  ReactDOM  from "react-dom/client";
 
 const heading1= (
     <h1 id="title" key="h2">
-     "Namaste React"
+     Namaste React
      </h1>
 );
 
 const HeaderComponent= ()=>{
     return (
-        <div> 
+        <div id="container" className="header"> 
             {heading1}
-           <h2>
-            Namaste React Component
-           </h2>
-           <p>This is paragraph</p>
+            <ul className="listed">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Gallary</a></li>
+                <li><a href="#">Career</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
         </div>
     )
 }

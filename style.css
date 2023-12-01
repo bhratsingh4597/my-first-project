@@ -1,6 +1,25 @@
 #container {
-    background: radial-gradient(#eecfbd, #c8e6a2);
+    max-width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
 }
 #title {
     color: #b82828;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.listed {
+    display: flex;
+    list-style: none;
+}
+.listed li {
+    padding: 10px 20px;
+}
+.listed li a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
 }
